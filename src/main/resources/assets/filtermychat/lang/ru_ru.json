@@ -1,0 +1,20 @@
+{
+  "filtermychat.title": "Фильтрация чата",
+  "filtermychat.welcome.title": "Добро пожаловать!",
+  "filtermychat.welcome.subtitle": "Выполните первоначальную настройку.",
+  "filtermychat.welcome.next": "Дальше",
+  "filtermychat.settings.title": "Настройки фильтрации чата",
+  "filtermychat.settings.subtitle.first": "Настройте фильтры для комфортной игры",
+  "filtermychat.settings.subtitle.normal": "Управление фильтрацией чата",
+  "filtermychat.settings.save": "Сохранить настройки",
+  "filtermychat.settings.finish": "Завершить настройку",
+  "filtermychat.settings.author": "Made by Sooshka",
+  "filtermychat.category.swearing": "Мат и нецензурная лексика",
+  "filtermychat.category.swearing.desc": "Фильтрует нецензурные выражения",
+  "filtermychat.category.links": "Ссылки",
+  "filtermychat.category.links.desc": "Блокирует ссылки на внешние ресурсы",
+  "filtermychat.category.trolling": "Троллинг и провокации",
+  "filtermychat.category.trolling.desc": "Фильтрует провокационные сообщения",
+  "filtermychat.status.enabled": "✓ Включено",
+  "filtermychat.status.disabled": "✗ Отключено"
+} 

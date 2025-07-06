@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.sooshka.filtermychat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

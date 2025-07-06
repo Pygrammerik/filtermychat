@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "filtermychat",
+  "version": "1.0-SNAPSHOT",
+  "name": "FilterMyChat",
+  "description": "Мод для фильтрации сообщений чата по категориям слов",
+  "authors": ["Sooshka"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/filtermychat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.sooshka.filtermychat.client.FiltermychatDataGenerator"
+    ],
+    "client": [
+      "org.sooshka.filtermychat.client.FiltermychatClient"
+    ],
+    "main": [
+      "org.sooshka.filtermychat.Filtermychat"
+    ],
+    "modmenu": [
+      "org.sooshka.filtermychat.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "filtermychat.mixins.json",
+    {
+      "config": "filtermychat.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.3"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/example"
+      }
+    }
+  }
+}

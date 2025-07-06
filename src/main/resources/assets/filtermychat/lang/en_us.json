@@ -1,0 +1,20 @@
+{
+  "filtermychat.title": "Chat Filtering",
+  "filtermychat.welcome.title": "Welcome!",
+  "filtermychat.welcome.subtitle": "Complete initial setup.",
+  "filtermychat.welcome.next": "Next",
+  "filtermychat.settings.title": "Chat Filtering Settings",
+  "filtermychat.settings.subtitle.first": "Configure filters for comfortable gameplay",
+  "filtermychat.settings.subtitle.normal": "Chat filtering management",
+  "filtermychat.settings.save": "Save Settings",
+  "filtermychat.settings.finish": "Finish Setup",
+  "filtermychat.settings.author": "Made by Sooshka",
+  "filtermychat.category.swearing": "Swearing and Obscene Language",
+  "filtermychat.category.swearing.desc": "Filters obscene expressions",
+  "filtermychat.category.links": "Links",
+  "filtermychat.category.links.desc": "Blocks links to external resources",
+  "filtermychat.category.trolling": "Trolling and Provocations",
+  "filtermychat.category.trolling.desc": "Filters provocative messages",
+  "filtermychat.status.enabled": "✓ Enabled",
+  "filtermychat.status.disabled": "✗ Disabled"
+} 
